@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "TestWhisperApi.Controllers.AudioController",
-    "Method": "Transcribe",
-    "RelativePath": "api/Audio/transcribe",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "audioFile",
-        "Type": "Microsoft.AspNetCore.Http.IFormFile",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "TestWhisperApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

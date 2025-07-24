@@ -31,3 +31,4 @@ D:\Coding\AI\whisper\TestWhisperApi\TestWhisperApi\obj\Debug\net8.0\refint\TestW
 D:\Coding\AI\whisper\TestWhisperApi\TestWhisperApi\obj\Debug\net8.0\TestWhisperApi.pdb
 D:\Coding\AI\whisper\TestWhisperApi\TestWhisperApi\obj\Debug\net8.0\TestWhisperApi.genruntimeconfig.cache
 D:\Coding\AI\whisper\TestWhisperApi\TestWhisperApi\obj\Debug\net8.0\ref\TestWhisperApi.dll
+D:\Coding\AI\whisper\TestWhisperApi\TestWhisperApi\obj\Debug\net8.0\TestWhisperApi.sourcelink.json
