@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Coding\\AI\\whisper\\TestWhisperApi\\TestWhisperApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestWhisperApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestWhisperApi.props",
+      "PackagePath": "build\\TestWhisperApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestWhisperApi.props",
+      "PackagePath": "buildMultiTargeting\\TestWhisperApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestWhisperApi.props",
+      "PackagePath": "buildTransitive\\TestWhisperApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

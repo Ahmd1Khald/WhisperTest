@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Whisper Transcription</title>
+</head>
+<body>
+    <h1>Upload Audio File</h1>
+
+    <input type="file" id="audioFile" accept="audio/mp3, audio/mpeg" />
+    <button onclick="uploadAudio()">Upload & Transcribe</button>
+
+    <h2>Transcribed Text:</h2>
+    <div id="result" style="white-space: pre-wrap; background-color: #f0f0f0; padding: 10px;"></div>
+
+    <script>
+        async function uploadAudio() {
+            const fileInput = document.getElementById('audioFile');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert("Please select an audio file first.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("audioFile", file);
+
+            try {
+                const response = await fetch("https://localhost:7113/api/audio/transcribe", {
+                    method: "POST",
+                    body: formData
+                });
+
+                const json = await response.json(); // 👈 فك JSON بدل text
+
+                // عرض فقط القيمة من المفتاح text
+                document.getElementById("result").innerText = json.text;
+
+            } catch (error) {
+                console.error("Error:", error);
+                document.getElementById("result").innerText = "Error occurred during transcription.";
+            }
+        }
+
+    </script>
+</body>
+</html>

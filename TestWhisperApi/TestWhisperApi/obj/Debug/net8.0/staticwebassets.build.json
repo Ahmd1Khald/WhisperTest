@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "a9AOnSio/3SJdNvQUjRlVh/JtZXXTQ++zyjb4ITVhWc=",
+  "Source": "TestWhisperApi",
+  "BasePath": "_content/TestWhisperApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TestWhisperApi\\wwwroot",
+      "Source": "TestWhisperApi",
+      "ContentRoot": "D:\\Coding\\AI\\whisper\\TestWhisperApi\\TestWhisperApi\\wwwroot\\",
+      "BasePath": "_content/TestWhisperApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Coding\\AI\\whisper\\TestWhisperApi\\TestWhisperApi\\wwwroot\\index.html",
+      "SourceId": "TestWhisperApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Coding\\AI\\whisper\\TestWhisperApi\\TestWhisperApi\\wwwroot\\",
+      "BasePath": "_content/TestWhisperApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
