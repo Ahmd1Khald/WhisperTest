@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestWhisperApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b73cb973a96fb0bce7073019c652f382c82143f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0e268cfea9f01bbc8c718e368452683b087a9ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestWhisperApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestWhisperApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
